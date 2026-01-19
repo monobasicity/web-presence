@@ -1,5 +1,5 @@
 title: "My Digital Garden"
 description: "A collection of thoughts and notes."
-baseurl: "" # keep this empty for root domain
-url: "" # keep this empty for now
+baseurl: "/web-presence"
+url: "https://monobasicity.github.io"
 theme: null
