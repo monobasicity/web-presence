@@ -13,7 +13,7 @@ A personal website is the only platform where you possess complete control over 
 
 The image below illustrates this fundamental difference.
 
-![Digital Sovereignty vs. Rented Land]({{ /assets/images/2026-01-19-digital-sovereignty-and-github-pages/2026-01-19-digital-sovereignty-and-github-pages01.png | relative_url }})
+![Digital Sovereignty vs. Rented Land]({{ '/assets/images/2026-01-19-digital-sovereignty-and-github-pages/2026-01-19-digital-sovereignty-and-github-pages01.png' | relative_url }})
 *Figure 1: A conceptual model of owning your platform versus relying on third-party services.*
 
 ## The Technical Architecture: GitHub Pages and Jekyll
@@ -30,7 +30,7 @@ This "docs-as-code" approach offers several advantages:
 
 The following flowchart demonstrates the deployment pipeline from your local machine to the live web.
 
-![GitHub Pages Deployment Workflow]({{ /assets/images/2026-01-19-digital-sovereignty-and-github-pages/2026-01-19-digital-sovereignty-and-github-pages02.png | relative_url }})
+![GitHub Pages Deployment Workflow]({{ '/assets/images/2026-01-19-digital-sovereignty-and-github-pages/2026-01-19-digital-sovereignty-and-github-pages02.png' | relative_url }})
 *Figure 2: The git-based deployment workflow from local development to a live GitHub Pages site.*
 
 ## Implementation Guide: The Minimalist Blog Kit
@@ -39,7 +39,7 @@ This website was constructed using a minimalist Jekyll template designed for eas
 
 The structure of the project is intentionally flat and simple. The image below shows the complete file organization.
 
-![Jekyll Project Directory Structure]({{ /assets/images/2026-01-19-digital-sovereignty-and-github-pages/2026-01-19-digital-sovereignty-and-github-pages03.png | relative_url }})
+![Jekyll Project Directory Structure]({{ '/assets/images/2026-01-19-digital-sovereignty-and-github-pages/2026-01-19-digital-sovereignty-and-github-pages03.png' | relative_url }})
 *Figure 3: The directory structure of a minimalist Jekyll blog.*
 
 Here is a breakdown of the essential components I used:
