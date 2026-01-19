@@ -49,8 +49,8 @@ This YAML file is the global configuration for the site. It defines site-wide va
 ```yaml
 title: "My Digital Garden"
 description: "A collection of thoughts and notes."
-baseurl: ""
-url: ""
+baseurl: "/web-presence"
+url: "https://monobasicity.github.io"
 theme: null
 ```
 
@@ -62,11 +62,11 @@ This HTML template serves as the "wrapper" for every page on the site. It contai
 <head>
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
     <header>
-        <h1><a href="/" style="color: inherit;">{{ site.title }}</a></h1>
+        <h1><a href="{{ '/' | relative_url }}" style="color: inherit;">{{ site.title }}</a></h1>
         <p>{{ site.description }}</p>
     </header>
 
@@ -100,7 +100,7 @@ body {
   color: var(--text);
   font-family: var(--font-body);
   line-height: 1.6;
-  max-width: 700px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 2rem 1rem;
 }
@@ -110,6 +110,81 @@ a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 h1, h2, h3 { line-height: 1.2; margin-top: 2rem; }
 .post-meta { font-size: 0.9rem; color: #888; }
+
+/* Images should never overflow the text width */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;       /* Prevents tiny space below images */
+  margin: 2rem auto;    /* Centers image and adds vertical spacing */
+  border-radius: 8px;   /* Optional: Adds nice rounded corners */
+}
+
+/* Make code blocks look like distinct boxes */
+pre, code {
+  font-family: "Menlo", "Monaco", "Consolas", "Courier New", monospace;
+  font-size: 0.9rem;
+}
+
+/* Inline code (like `this`) */
+p code, li code {
+  background-color: #eee;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  color: #d14; /* A nice red accent for inline code */
+}
+
+/* Dark mode adjustment for inline code */
+@media (prefers-color-scheme: dark) {
+  p code, li code {
+    background-color: #333;
+    color: #ff7b72;
+  }
+}
+
+/* Block code (the big chunks) */
+pre {
+  background-color: #2d2d2d; /* Dark gray background */
+  color: #f8f8f2;            /* Light text */
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;          /* Adds a scrollbar if line is too long */
+  margin: 1.5rem 0;
+  line-height: 1.45;
+}
+
+/* Fix for Jekyll's default highlighter wrapper */
+.highlight {
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+}
+.highlight pre {
+  margin-bottom: 0;
+}
+
+/* Syntax Highlighting Colors */
+.highlight .c, .highlight .cm, .highlight .cp, .highlight .c1, .highlight .cs {
+  color: #75715e; /* Comments - Grey */
+  font-style: italic;
+}
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kp, .highlight .kr, .highlight .kt {
+  color: #66d9ef; /* Keywords - Cyan */
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #e6db74; /* Strings - Yellow */
+}
+.highlight .nt, .highlight .nc, .highlight .na, .highlight .nf {
+  color: #a6e22e; /* Tags and Functions - Green */
+}
+.highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi {
+  color: #fd971f; /* Variables - Orange */
+}
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .il {
+  color: #ae81ff; /* Numbers - Purple */
+}
+.highlight .o, .highlight .ow {
+  color: #f92672; /* Operators - Pink */
+}
 ```
 
 ### 4. `index.html`
@@ -126,7 +201,7 @@ title: Home
     <li>
       <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
       &mdash; 
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
