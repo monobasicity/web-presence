@@ -7,7 +7,7 @@ In an era defined by algorithmic feeds and ephemeral content, the act of establi
 
 ## The Imperative of Digital Sovereignty
 
-The primary argument for owning a website is the concept of **digital sovereignty**. While social media platforms offer immense reach, they operate on a model of "rented land." Your content, audience connection, and visibility are subject to their terms of service, algorithmic shifts, and corporate stability.
+The primary argument for owning a website is the concept of digital sovereignty. While social media platforms offer immense reach, they operate on a model of "rented land." Your content, audience connection, and visibility are subject to their terms of service, algorithmic shifts, and corporate stability.
 
 A personal website is the only platform where you possess complete control over your data, branding, and user experience. It serves as a permanent digital home—a canonical source of truth for your portfolio, thoughts, and professional identity.
 
@@ -18,9 +18,9 @@ The image below illustrates this fundamental difference.
 
 ## The Technical Architecture: GitHub Pages and Jekyll
 
-For developers and technical professionals, the most robust and efficient way to build a personal site is through a static site generator (SSG) hosted on a Git-based workflow. This site is hosted on **GitHub Pages**, a service that builds and serves static websites directly from a GitHub repository.
+For developers and technical professionals, the most robust and efficient way to build a personal site is through a static site generator (SSG) hosted on a Git-based workflow. This site is hosted on GitHub Pages, a service that builds and serves static websites directly from a GitHub repository.
 
-The core engine powering this process is **Jekyll**, a Ruby-based SSG that is tightly integrated with GitHub Pages. The workflow is elegant in its simplicity: you write content in Markdown, push it to your repository, and GitHub automatically compiles it into a complete website.
+The core engine powering this process is Jekyll, a Ruby-based SSG that is tightly integrated with GitHub Pages. The workflow is elegant in its simplicity: you write content in Markdown, push it to your repository, and GitHub automatically compiles it into a complete website.
 
 This "docs-as-code" approach offers several advantages:
 
