@@ -1,0 +1,5 @@
+title: "My Digital Garden"
+description: "A collection of thoughts and notes."
+baseurl: "" # keep this empty for root domain
+url: "" # keep this empty for now
+theme: null
