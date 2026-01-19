@@ -14,7 +14,7 @@ body {
   color: var(--text);
   font-family: var(--font-body);
   line-height: 1.6;
-  max-width: 700px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 2rem 1rem;
 }
@@ -24,3 +24,12 @@ a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 h1, h2, h3 { line-height: 1.2; margin-top: 2rem; }
 .post-meta { font-size: 0.9rem; color: #888; }
+
+/* Images should never overflow the text width */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;       /* Prevents tiny space below images */
+  margin: 2rem auto;    /* Centers image and adds vertical spacing */
+  border-radius: 8px;   /* Optional: Adds nice rounded corners */
+}
