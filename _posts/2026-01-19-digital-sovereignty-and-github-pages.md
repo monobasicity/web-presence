@@ -71,12 +71,20 @@ This HTML template serves as the "wrapper" for every page on the site. It contai
     </header>
 
     <main>
+        {% if page.title %}
+          <h1>{{ page.title }}</h1>
+        {% endif %}
+
         {{ content }}
     </main>
 
     <footer>
         <small>&copy; {{ site.time | date: "%Y" }}</small>
     </footer>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
 </body>
 </html>
 ```
@@ -211,3 +219,15 @@ title: Home
 This directory contains your content. Each post is a Markdown file with a specific filename format: `YYYY-MM-DD-title.md`. Each file begins with a YAML front-matter block that defines metadata like the post's title and layout.
 
 By adhering to this structure, you have a powerful, scalable, and maintainable blogging platform that lives entirely within your Git repository.
+
+### 6. Mermaid Test
+I included the Mermaid JavaScript in the `default.html`, however, unlike regular Markdown, for this to work in GitHub Pages, the Mermaid code must be provided in actual HTML instead of in a code block:
+
+<div class="mermaid">
+  graph TD;
+      A[User's Computer] -->|Git Push| B(GitHub);
+      B -->|Jekyll Build| C{Is it valid?};
+      C -->|Yes| D[Your Website];
+      C -->|No| E[Build Error];
+      style D fill:#f9f,stroke:#333,stroke-width:4px
+</div>
