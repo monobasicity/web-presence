@@ -22,7 +22,7 @@ This blog is my digital garden—a place where ideas grow, evolve, and connect. 
 <ul>
 <li><strong>Tech</strong> — From software development and emerging technologies to productivity tools and digital workflows. I explore how technology shapes our world and how we can harness it effectively.</li>
 <li><strong>Health</strong> — Physical and mental wellness, fitness journeys, nutrition experiments, and the pursuit of a balanced life. Because our bodies and minds are the foundations of everything else.</li>
-<li><strong>Philosophy</strong> — Deep thoughts on existence, consciousness, ethics, and the big questions that keep me up at night. Sometimes profound, sometimes just rambling—but always genuine./li>
+<li><strong>Philosophy</strong> — Deep thoughts on existence, consciousness, ethics, and the big questions that keep me up at night. Sometimes profound, sometimes just rambling—but always genuine.</li>
 <li><strong>Gaming</strong> — Reviews, strategies, and reflections on video games as an art form. From indie gems to AAA blockbusters, games are more than entertainment—they're experiences.</li>
 <li><strong>Anime</strong> — Series reviews, character analyses, and cultural explorations. Animation that moves the soul deserves thoughtful discussion.</li>
 <li><strong>Life</strong> — Everything else that doesn't fit neatly into categories. Personal stories, lessons learned, and observations about this wild ride we call existence.</li>
