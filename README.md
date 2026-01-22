@@ -104,6 +104,7 @@ Main styles are in `assets/css/main.css`. CSS variables at the top make it easy 
 ├── _posts/              # Your blog posts (add .md files here!)
 ├── assets/
 │   ├── css/main.css     # Styles
+│   ├── images/          # Post images
 │   └── js/main.js       # JavaScript
 ├── categories/          # Category pages
 ├── index.html           # Home page
