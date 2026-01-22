@@ -22,7 +22,7 @@ The demon king is dead. The hero's journey is complete. But for Frieren, an elf 
 
 ## Favorite Episode
 
-Episode 10, "Aura the Guillotine." The way it subverts expectations about power levels while staying true to Frieren's character is masterful storytelling.
+Episode 9, "Aura the Guillotine." The way it subverts expectations about power levels while staying true to Frieren's character is masterful storytelling.
 
 ## The Animation
 
