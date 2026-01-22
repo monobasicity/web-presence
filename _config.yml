@@ -1,10 +1,9 @@
 # Site Settings
-title: "My Journey"
-description: "Exploring tech, health, philosophy, gaming, anime, and life"
-author: "Your Name"
-email: your-email@example.com
-url: "" # Your site URL (e.g., https://username.github.io)
-baseurl: "" # Subpath (e.g., /blog)
+title: "Debugging Reality"
+description: "Between algorithms and awareness."
+author: "monobasicity"
+url: "https://monobasicity.github.io"
+baseurl: "/web-presence"
 
 # Social Links
 social:
