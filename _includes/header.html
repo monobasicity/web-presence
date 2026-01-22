@@ -1,0 +1,32 @@
+<header class="site-header">
+  <nav class="nav-container">
+    <a href="{{ '/' | relative_url }}" class="site-logo">
+      <span class="logo-text">{{ site.title }}</span>
+    </a>
+    
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="hamburger"></span>
+    </button>
+    
+    <ul class="nav-menu">
+      <li><a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a></li>
+      <li><a href="{{ '/about' | relative_url }}" class="nav-link {% if page.url == '/about/' %}active{% endif %}">About</a></li>
+      <li><a href="{{ '/posts' | relative_url }}" class="nav-link {% if page.url == '/posts/' %}active{% endif %}">Posts</a></li>
+      <li class="nav-dropdown">
+        <button class="nav-link dropdown-toggle">
+          Topics
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="{{ '/categories/tech' | relative_url }}" class="dropdown-link">Tech</a></li>
+          <li><a href="{{ '/categories/health' | relative_url }}" class="dropdown-link">Health</a></li>
+          <li><a href="{{ '/categories/philosophy' | relative_url }}" class="dropdown-link">Philosophy</a></li>
+          <li><a href="{{ '/categories/gaming' | relative_url }}" class="dropdown-link">Gaming</a></li>
+          <li><a href="{{ '/categories/anime' | relative_url }}" class="dropdown-link">Anime</a></li>
+          <li><a href="{{ '/categories/life' | relative_url }}" class="dropdown-link">Life</a></li>
+        </ul>
+      </li>
+      <li><a href="{{ '/tags' | relative_url }}" class="nav-link {% if page.url == '/tags/' %}active{% endif %}">Tags</a></li>
+    </ul>
+  </nav>
+</header>

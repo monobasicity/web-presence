@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="archive-page">
+  <header class="archive-header">
+    <span class="tag-indicator">#</span>
+    <h1 class="archive-title">{{ page.tag }}</h1>
+  </header>
+  
+  {% assign tag_posts = site.posts | where_exp: "post", "post.tags contains page.tag" %}
+  
+  <div class="posts-list">
+    {% for post in tag_posts %}
+      {% include post-card.html post=post %}
+    {% endfor %}
+    
+    {% if tag_posts.size == 0 %}
+      <div class="empty-state">
+        <p>No posts with this tag yet.</p>
+      </div>
+    {% endif %}
+  </div>
+</div>

@@ -1,5 +1,54 @@
-title: "Debugging Reality"
-description: "Between algorithms and awareness."
-baseurl: "/web-presence"
-url: "https://monobasicity.github.io"
-theme: null
+# Site Settings
+title: "My Journey"
+description: "Exploring tech, health, philosophy, gaming, anime, and life"
+author: "Your Name"
+email: your-email@example.com
+url: "" # Your site URL (e.g., https://username.github.io)
+baseurl: "" # Subpath (e.g., /blog)
+
+# Social Links
+social:
+  github: yourusername
+  twitter: yourusername
+  linkedin: yourusername
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Category Colors (used in templates)
+category_colors:
+  tech: "#3b82f6"
+  health: "#10b981"
+  philosophy: "#8b5cf6"
+  gaming: "#f59e0b"
+  anime: "#ec4899"
+  life: "#06b6d4"
+
+# Pagination (optional - requires jekyll-paginate)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md

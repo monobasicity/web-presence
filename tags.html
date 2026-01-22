@@ -1,0 +1,46 @@
+---
+layout: default
+title: All Tags
+permalink: /tags/
+---
+
+<div class="archive-page">
+  <header class="archive-header">
+    <h1 class="archive-title">All Tags</h1>
+    <p class="archive-description">Browse posts by topic tags.</p>
+  </header>
+  
+  {% assign all_tags = site.posts | map: "tags" | compact | flatten | uniq | sort %}
+  
+  {% if all_tags.size > 0 %}
+    <div class="all-tags">
+      {% for tag in all_tags %}
+        {% assign tag_posts = site.posts | where_exp: "post", "post.tags contains tag" %}
+        <a href="{{ '/tags/' | append: tag | relative_url }}" class="tag">#{{ tag }} ({{ tag_posts.size }})</a>
+      {% endfor %}
+    </div>
+    
+    <hr style="margin: 3rem 0; border-color: var(--color-border);">
+    
+    {% for tag in all_tags %}
+      <section id="{{ tag }}" style="margin-bottom: 3rem;">
+        <h2 style="font-size: 1.25rem; margin-bottom: 1rem; color: var(--color-accent);">#{{ tag }}</h2>
+        <div class="posts-list">
+          {% assign tag_posts = site.posts | where_exp: "post", "post.tags contains tag" %}
+          {% for post in tag_posts %}
+            <article class="post-card" style="background: transparent; border: none; padding: 0;">
+              <a href="{{ post.url | relative_url }}" style="display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 0; border-bottom: 1px solid var(--color-border);">
+                <span style="font-weight: 500;">{{ post.title }}</span>
+                <span style="font-size: 0.85rem; color: var(--color-text-subtle);">{{ post.date | date: "%b %d, %Y" }}</span>
+              </a>
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+    {% endfor %}
+  {% else %}
+    <div class="empty-state">
+      <p>No tags yet. Add tags to your post front matter to organize content.</p>
+    </div>
+  {% endif %}
+</div>

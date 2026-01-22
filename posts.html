@@ -1,0 +1,25 @@
+---
+layout: default
+title: All Posts
+permalink: /posts/
+---
+
+<div class="archive-page">
+  <header class="archive-header">
+    <h1 class="archive-title">All Posts</h1>
+    <p class="archive-description">A chronological collection of all my writings.</p>
+  </header>
+  
+  {% if site.posts.size > 0 %}
+    <div class="posts-list">
+      {% for post in site.posts %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="empty-state">
+      <p>No posts yet. Add markdown files to the <code>_posts</code> directory to get started.</p>
+      <p style="margin-top: 1rem;">File naming format: <code>YYYY-MM-DD-title.md</code></p>
+    </div>
+  {% endif %}
+</div>
