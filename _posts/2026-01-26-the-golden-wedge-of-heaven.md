@@ -3,7 +3,7 @@ title: "The Golden Wedge of Heaven: How Gilgamesh Conquered Myth, Fate, and the 
 description: "Gilgamesh evolves from an ancient Sumerian hero grappling with mortality to a multifaceted modern icon in Fate and Final Fantasy, embodying humanity's maximalist spirit."
 date: 2026-01-26
 categories: [anime]
-tags: [mythology, heroiism, gilgamesh, fate]
+tags: [mythology, heroism, gilgamesh, fate]
 ---
 
 In the vast, sprawling annals of human storytelling, there is one figure who stands at the very beginning: the "Ur-Hero."  Long before the Odyssey or the Knights of the Round Table, there was the King of Uruk. Predating the Homeric epics by over a millennium, Gilgamesh represents humanity’s very first attempt to grapple with the terrifying and beautiful concepts of mortality, legacy, and the divine right of kings.
