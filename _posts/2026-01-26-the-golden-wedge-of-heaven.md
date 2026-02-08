@@ -6,7 +6,7 @@ categories: [anime]
 tags: [mythology, heroism, gilgamesh, fate]
 ---
 
-In the vast, sprawling annals of human storytelling, there is one figure who stands at the very beginning: the "Ur-Hero."  Long before the Odyssey or the Knights of the Round Table, there was the King of Uruk. Predating the Homeric epics by over a millennium, Gilgamesh represents humanity’s very first attempt to grapple with the terrifying and beautiful concepts of mortality, legacy, and the divine right of kings.
+In the vast, sprawling annals of human storytelling, there is one figure who stands at the very beginning: the "Ur-Hero." Long before the Odyssey or the Knights of the Round Table, there was the King of Uruk. Predating the Homeric epics by over a millennium, Gilgamesh represents humanity’s very first attempt to grapple with the terrifying and beautiful concepts of mortality, legacy, and the divine right of kings.
 
 However, if you mention the name "Gilgamesh" today, you are likely to get two very different reactions. To historians and literary scholars, he is the tragic, introspective figure of Sumerian poetry. Yet, to the millions of pop culture enthusiasts—specifically fans of the *Fate* franchise—he is the "King of Heroes," a golden-armored demigod who rains swords from the heavens and dismisses his foes as "mongrels."
 
@@ -20,7 +20,7 @@ To understand the arrogance and the tragedy of the modern Gilgamesh, we must fir
 
 The historical Gilgamesh was likely a real king of the city-state of Uruk during the Early Dynastic II period (ca. 2700-2500 BCE). The Sumerian King List credits him with a reign of 126 years and the construction of Uruk’s great walls. But it was the literary epic, standardised by the scribe Sîn-lēqi-unninni around 1200 BCE, that defined his nature.
 
-The text presents Gilgamesh as a being who is "two-thirds god and one-third man."  This precise mathematical division is the linchpin of his character. It renders him superior to all other men, yet he remains fatally flawed by the one-third of him that is mortal. He is a being of infinite potential trapped in a finite existence.
+The text presents Gilgamesh as a being who is "two-thirds god and one-third man." This precise mathematical division is the linchpin of his character. It renders him superior to all other men, yet he remains fatally flawed by the one-third of him that is mortal. He is a being of infinite potential trapped in a finite existence.
 
 Initially, this imbalance manifests as tyranny. The young Gilgamesh is a force of nature that civilisation cannot contain; he oppresses the men of Uruk and claims *droit du seigneur* over the women. He is restless, destructive, and lonely in his superiority.
 
@@ -133,10 +133,10 @@ To visualise these differences, we can look at the core attributes across his it
 
 | Feature | Sumerian Myth (Epic) | Fate Franchise (Nasuverse) | Final Fantasy / Gaming |
 | :---- | :---- | :---- | :---- |
-| **Primary Goal** | Immortality (Eternal Life)  | Amusement / Preservation of Human Worth  | Collection of Weapons / Returning Home  |
-| **Role of Enkidu** | Wild man who civilises the King  | Divine Weapon/Soulmate who balances the King  | Faithful Companion (often dog/demon)  |
-| **Stance on Humanity** | Oppressor turned Protector  | Judge / Gardener (Pruning the weak)  | Wanderer / Challenger  |
-| **Relationship to Gods** | Victim / Rebel  | Rebel / Atheist (Rejects Divine Authority)  | Minion (initially) / Independent Agent  |
+| **Primary Goal** | Immortality (Eternal Life) | Amusement / Preservation of Human Worth | Collection of Weapons / Returning Home |
+| **Role of Enkidu** | Wild man who civilises the King | Divine Weapon/Soulmate who balances the King | Faithful Companion (often dog/demon) |
+| **Stance on Humanity** | Oppressor turned Protector | Judge / Gardener (Pruning the weak) | Wanderer / Challenger |
+| **Relationship to Gods** | Victim / Rebel | Rebel / Atheist (Rejects Divine Authority) | Minion (initially) / Independent Agent |
 
 ### Conclusion: The Star of the Beginning
 
